@@ -3,7 +3,7 @@
 
 
 <!-- navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success" >
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success" style="display: block" >
   <div class="container">
   <a class="navbar-brand textnavbar" href="#"><strong>The Pakubuwono View </strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +39,8 @@
 <!-- akhir navbar -->
 
 <!-- jumbotron -->
-<div class="jumbotron jumbotron-fluid text-center">
-  <div class="container mt-5">
+<div class="jumbotron jumbotron-fluid text-center body-content">
+  <div class="container mt-5 ">
     <div data-aos="fade-right" data-aos-duration="3000">
     <h1 class="display-4">The Pakubuwono View</h1>
     <p class="lead"><em>Redefining the comforts of modern living</em></p>

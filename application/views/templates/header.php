@@ -18,15 +18,6 @@
 	position: relative;
 }
 
-body{
-	margin-bottom: 100px;
-}
-ul {
-    text-align: center;
-    list-style-position: inside;
-}
-
-
 .fontjudul{
 	font-family: 'Bilbo Swash Caps', cursive;
 }
@@ -36,19 +27,16 @@ ul {
 	 font-family: 'Allura';
 }
 
-.kanan{
-	float:right;
-}
+
+
 
 .jumbotron {
-	height:600px;
-	background-image: url('img/Pool-Video.jpg');
-	background: rgba(0,0,0,0.5),url('img/Pool-Video.jpg') center/cover fixed no-repeat;
+	height:400px;
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(255, 0, 150, 0.3)), url('img/Pool-Video.jpg')  center/cover fixed no-repeat;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: rgba(r,g,b,alpha);
 	background-size: cover;
-	background-position: 0 -100px;
 	color: #eaeaea;
 	overflow: hidden;
 } 
@@ -68,17 +56,13 @@ ul {
 	top: 10px;
 }
 
-#carouselExampleCaptions{
-	position: relative;
-	bottom: 50px
-}
 /*#map {
    width: 100%;
    height: 400px;
    background-color: grey;
  }*/
 footer{
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	height: 100px;
